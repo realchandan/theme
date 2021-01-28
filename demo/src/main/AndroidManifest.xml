@@ -10,7 +10,7 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/CommonAppTheme">
-        <activity android:name="app.chandan.demo.MainActivity">
+        <activity android:name="app.chandan.demo.Hello">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
