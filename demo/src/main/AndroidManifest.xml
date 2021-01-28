@@ -3,12 +3,13 @@
     package="app.chandan.demo">
 
     <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Theme">
+        android:theme="@style/CommonAppTheme">
         <activity android:name="app.chandan.demo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
