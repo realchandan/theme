@@ -1,13 +1,13 @@
 <resources>
 
-    <style name="CommonAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="CommonAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Attrs -->
-        <item name="toolbar_color">@color/purple_700</item>
+        <item name="toolbar_color">@color/dark3</item>
         <item name="toolbar_text">@android:color/white</item>
-        <item name="backgroundcolor">@color/close_background</item>
+        <item name="backgroundcolor">@color/dark1</item>
         <item name="toolbar_text_secondary">@android:color/white</item>
         <item name="textcolor">@android:color/black</item>
-        <item name="textcolor2">@android:color/black</item>
+        <item name="textcolor2">@android:color/white</item>
         <item name="statusbarcolor">?toolbar_color</item>
         <!-- Theme -->
         <item name="colorPrimary">@color/purple_500</item>
